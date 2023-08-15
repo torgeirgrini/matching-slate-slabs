@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "matching-slate-slabs"
+version = "0.1.0"
+description = ""
+authors = ["Jon Torgeir Grini <torgeirgrini@gmail.com>"]
+readme = "README.md"
+packages = [{include = "matching_slate_slabs"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.2"
+matplotlib = "^3.7.2"
+shapely = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

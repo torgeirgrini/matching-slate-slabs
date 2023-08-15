@@ -1,0 +1,7 @@
+# .gitignore
+
+# Python cache files
+__pycache__/
+
+# Virtual environment
+env/
